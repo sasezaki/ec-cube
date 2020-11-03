@@ -10,3 +10,5 @@ parameters:
 
 includes:
     - qa/phpstan/baseline.neon
+    - vendor/phpstan/phpstan-doctrine/extension.neon
+    - vendor/phpstan/phpstan-doctrine/rules.neon
