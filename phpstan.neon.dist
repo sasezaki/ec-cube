@@ -1,0 +1,10 @@
+parameters:
+    level: 1
+    paths:
+        - src
+    parallel:
+        processTimeout: 300.0
+        maximumNumberOfProcesses: 4
+
+includes:
+    - qa/phpstan/baseline.neon

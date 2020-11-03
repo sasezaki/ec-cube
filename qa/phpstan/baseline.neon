@@ -1,0 +1,82 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Anonymous function has an unused use \\$request\\.$#"
+			count: 1
+			path: ../../src/Eccube/Controller/Admin/AbstractCsvImportController.php
+
+		-
+			message: "#^Variable \\$PrevPage might not be defined\\.$#"
+			count: 3
+			path: ../../src/Eccube/Controller/Admin/Content/PageController.php
+
+		-
+			message: "#^Variable \\$previous_password might not be defined\\.$#"
+			count: 1
+			path: ../../src/Eccube/Controller/Admin/Customer/CustomerEditController.php
+
+		-
+			message: "#^Variable \\$ProductClass might not be defined\\.$#"
+			count: 7
+			path: ../../src/Eccube/Controller/Admin/Product/ProductController.php
+
+		-
+			message: "#^Variable \\$ProductStock might not be defined\\.$#"
+			count: 3
+			path: ../../src/Eccube/Controller/Admin/Product/ProductController.php
+
+		-
+			message: "#^Variable \\$ParentCategory might not be defined\\.$#"
+			count: 1
+			path: ../../src/Eccube/Controller/Admin/Product/ProductController.php
+
+		-
+			message: "#^Instantiated class Eccube\\\\Controller\\\\Admin\\\\Setting\\\\Shop\\\\BadRequestHttpException not found\\.$#"
+			count: 1
+			path: ../../src/Eccube/Controller/Admin/Setting/Shop/MailController.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: ../../src/Eccube/Entity/Master/AbstractMasterEntity.php
+
+		-
+			message: "#^Class Doctrine\\\\DBAL\\\\Connection referenced with incorrect case\\: Doctrine\\\\Dbal\\\\Connection\\.$#"
+			count: 1
+			path: ../../src/Eccube/EventListener/TransactionListener.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$orderStatusRepository\\.$#"
+			count: 2
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$deliveryRepository\\.$#"
+			count: 3
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$paymentRepository\\.$#"
+			count: 2
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$deviceTypeRepository\\.$#"
+			count: 2
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$entityManager\\.$#"
+			count: 3
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Access to an undefined property Eccube\\\\Service\\\\OrderHelper\\:\\:\\$mobileDetector\\.$#"
+			count: 2
+			path: ../../src/Eccube/Service/OrderHelper.php
+
+		-
+			message: "#^Function twig_localized_date_filter not found\\.$#"
+			count: 4
+			path: ../../src/Eccube/Twig/Extension/IntlExtension.php
+
